@@ -1,0 +1,35 @@
+ol, ul, li {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-weight: normal;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+.aboba, .spisok1 {
+	font-family: 'Rubik Mono One', sans-serif;
+
+}
+.aboba2, .spisok2 {
+	font-family: 'Press Start 2P', cursive;
+}
+
+
+li {
+	list-style-type: none;
+}
+.spisok1:before {
+	content: ":_( ";
+}
+.spisok2:before {
+	content: ":D " ;
+}
+
+hr {
+
+  height: 5px;
+  border: 0;
+  background-color: #9d00ff;
+}
